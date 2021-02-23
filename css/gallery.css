@@ -88,7 +88,7 @@ main {
   height: 300px;
   position: relative;
   border-radius: 5px;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
   cursor: pointer;
 }
 
@@ -154,6 +154,22 @@ main {
 
 .gallery-image-16 {
   background-image: url(../images/gallery16.jpg);
+}
+
+.gallery-image-17 {
+  background-image: url(../images/gallery17.jpg);
+}
+
+.gallery-image-18 {
+  background-image: url(../images/gallery18.jpg);
+}
+
+.gallery-image-19 {
+  background-image: url(../images/gallery19.jpg);
+}
+
+.gallery-image-20 {
+  background-image: url(../images/gallery20.jpg);
 }
 
 .gallery-image:hover {

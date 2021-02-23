@@ -16,8 +16,18 @@ function validateForm(event) {
 	let lastName = document.querySelector("#last-name").value;
 	if (lastName.length < 2) {
 		addError("Last name must be atleast 2 characters");
-	}	
-}
+	}
+
+	let purposeSelect = document.querySelector("#purpose");
+	if (purposeSelect.value === "-- Select an option --") {
+   	 	addError("Please select a purpose of inquiry");
+ 	}
+  
+	let textArea = document.querySelector("#textarea-1").value;
+	if (textArea.length < 1) {
+    	addError("Message must be greater than 1 character");
+  }
+}	
 
 function addError(error) {
 	let li = document.createElement("li");
