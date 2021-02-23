@@ -21,7 +21,7 @@ img {
   padding: 20px;
 }
 
-#social-icon {
+.social-icon {
   height: 30px;
   width: 30px;
   cursor: pointer;
@@ -31,7 +31,7 @@ img {
   margin: 0 3px;
 }
 
-#social-icon:hover {
+.social-icon:hover {
   fill: #fff;
   background-color: #000;
 }
