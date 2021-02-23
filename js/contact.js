@@ -16,12 +16,7 @@ function validateForm(event) {
 	let lastName = document.querySelector("#last-name").value;
 	if (lastName.length < 2) {
 		addError("Last name must be atleast 2 characters");
-	}
-
-	let emailValid = document.querySelector("#email").value === /\S+@\S+\.\S+/;
-	if (!emailValid) {
-		addError("Please enter a valid email address");
-	}
+	}	
 }
 
 function addError(error) {

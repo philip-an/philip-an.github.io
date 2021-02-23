@@ -5,14 +5,14 @@
 		<link rel="shortcut icon" type="image/x-icon" href="https://images.squarespace-cdn.com/content/v1/5b9a02c0f8370aaccd000e4d/1547953548881-63E1XPKNDZPEBGQXM27X/ke17ZwdGBToddI8pDm48kMaTW-bVoS2648WC5F1Hyup7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UQKu-tD52twjWJvqRPYOOkq2p0FuWd06l2pbEyK-mE7mMW9u6oXQZQicHHG1WEE6fg/favicon.ico?format=100w">
 		<link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Baloo+2&display=swap" rel="stylesheet">
 		<link rel="preconnect" href="https://fonts.gstatic.com"> <link href="https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="../css/reset.css">
-		<link rel="stylesheet" href="../css/normalize.css">
-		<link rel="stylesheet" href="../css/contact.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/homepage.css">
 	</head>
 	<body>
 		<header>
 			<div class=q-logo>
-				<a href="homepage.html"> <img src="../images/logo.png" alt="Inquiry Logo"></a>
+				<a href="html/homepage.html"> <img src="images/logo.png" alt="Inquiry Logo"></a>
 			</div>
 			<section class=social-nav>
 				<div>
@@ -55,89 +55,23 @@
 		<main>
 			<section class="nav advent-pro">
 				<div>
-					<a href="homepage.html"> <p class="nav-item">Home</p></a>
+					<a href="html/homepage.html"> <p class="nav-item">Home</p></a>
 				</div>
 				<div>
-					<a href="gallery.html"> <p class="nav-item">Gallery</p></a>
+					<a href="html/gallery.html"> <p class="nav-item">Gallery</p></a>
 				</div>
 				<div>
-					<a href="contact.html"> <p class="nav-item">Contact</p></a>
+					<a href="html/contact.html"> <p class="nav-item">Contact</p></a>
 				</div>
 			</section>
-			<section class="contact advent-pro">
+			<section class="logo">
 				<div>
-					<hr>
+					<img class="inquiry-logo" src="images/inquiry.png" alt="Inquiry Logo">
 				</div>
-				<div>
-					<p class="bio">Inquiry Collective is a family of musicians, artists, and creatives established on the West Coast in 2016. What began as a small musical collaborative effort between friends quickly grew into a much larger dream - a music centered collective that allows us to share our artistic expression with those who love and appreciate it most.</p><br>
-
-					<p class="bio">We've now compiled a wide range of styles that bridge the diverse range of musical projects represented by our artists. From live electro-swing to experimental bass to a variety of techno, Inquiry takes listeners on a journey through unique and rarely-heard music. The majority of originals are collaborative efforts and we reflect that in our live experience, where it is not uncommon for members to play together or shift genres every time they perform.</p><br>
-
-					<p class="bio">A variety of events are coming up including city gatherings, camping trips in stunning locations along the coast and larger festivals in the California desert. Want more info?</p><br>
-
-					<p class="bio">Please allow 48 hours for response time, we want to give you our full attention.</p>
-				</div>
-				<div>
-					<hr>
-				</div>
-				<form class="advent-pro" id="inquiryForm">
-					<legend class="title">
-							Name <span class="required">*</span>
-					</legend>
-					<section class="inquiry-form">
-						<div class="form-field">
-							<input type="username" id="first-name">
-							<label for="first-name">First Name</label>
-						</div>
-						<div class="form-field">
-							<input type="username" id="last-name">
-							<label for="last-name">Last Name</label>
-						</div>
-					</section>
-					<section class="inquiry-form">
-						<div class="form-field">
-							<label for="email">Email Address <span class="required">*</span></label>
-							<input type="username" id="email">
-						</div>
-					</section>
-					<section class="inquiry-form">
-						<div class="purpose">
-							<label for="purpose">Purpose <span class="required">*</span></label>
-							<select id="purpose">
-								<option disabled selected value>Select an option</option>
-								<option value>Event Inquiry</option>
-								<option value>Booking</option>
-								<option value>Volunteer</option>
-								<option value>Music Submission</option>
-								<option value>Collaboration</option>
-								<option value>Other</option>
-							</select>
-						</div>
-					</section>
-					<section class="inquiry-form">
-						<div class="form-field">
-							<label for="message">Message <span class="required">*</span></label>
-							<textarea id="textarea-1"></textarea>
-						</div>
-					</section>
-					<section class="radio-container">
-						<label for="radio-container">I want to be added to your newsletter for new music, public events, & secret renegades:</label>
-						<div>
-							<div class="radio">
-								<input type="radio" id="radio1" name="radio-group" checked>
-								<label for="radio1"><span>Hell Yah!</span></label>
-							</div>
-							<div class="radio">
-								<input type="radio" id="radio2" name="radio-group">
-								<label for="radio2"><span>Nah Tho</span></label>
-							</div>
-						</div>
-					</section>
-					<ul class="advent-pro" id="errors"></ul>
-					<input type="submit" class="button" value="Submit">
-				</form>
+			</section>
+			<section class="inquire advent-pro">
+				<a href="html/contact.html"> <h3>Please Inquire...</h3></a>
 			</section>
 		</main>
-		<script src="../js/contact.js"></script>
 	</body>
 </html>
