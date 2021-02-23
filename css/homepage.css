@@ -1,0 +1,86 @@
+.baloo-2 { font-family: 'Baloo 2', sans-serif; }
+.advent-pro { font-family: 'Advent Pro', sans-serif; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.social-nav {
+	display: flex;
+  padding: 20px;
+}
+
+#social-icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  transition: background-color 300ms ease-in-out;
+  border: 3px solid black;
+  border-radius: 15%;
+  margin: 0 3px;
+}
+
+#social-icon:hover {
+  fill: #fff;
+  background-color: #000;
+}
+
+main {
+  background: url(../images/background.png) center center no-repeat;
+  background-size: cover;
+  height: 925px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.nav-item {
+  padding: 0 25px;
+  color: white;
+  font-size: 25px;
+}
+
+.nav-item:hover {
+  color: #827188;
+  text-decoration: underline;
+}
+
+.inquiry-logo {
+  width: 850px;
+  height: 250px;
+}
+
+.logo {
+  height: 450px;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+
+h3 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
+}
+
+h3:hover {
+  color: #827188;
+  text-decoration: underline;
+}
+}

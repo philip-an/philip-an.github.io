@@ -1,0 +1,104 @@
+.baloo-2 { font-family: 'Baloo 2', sans-serif; }
+.advent-pro { font-family: 'Advent Pro', sans-serif; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.social-nav {
+	display: flex;
+  padding: 20px;
+}
+
+#social-icon {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  transition: background-color 300ms ease-in-out;
+  border: 3px solid black;
+  border-radius: 15%;
+  margin: 0 3px;
+}
+
+#social-icon:hover {
+  fill: #fff;
+  background-color: #000;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+} 
+
+.nav-item {
+  padding: 0 25px;
+  color: black;
+  font-size: 25px;
+}
+
+.nav-item:hover {
+  color: #827188;
+  text-decoration: underline;
+}
+
+.contact {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bio {
+  font-size: 25px;
+}
+
+.inquiry-form {
+  display: flex;
+  text-align: left;
+  padding: 15px 0;
+}
+
+.radio-container {
+  text-align: left;
+  padding: 15px 0;
+}
+
+.radio {
+  display: flex;
+}
+
+input, select, textarea {
+  display: block;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  border: solid black 3px;
+  border-radius: 5px;
+  background: white;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: 300ms ease-in-out;
+  margin: 75px 300px;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+.form-field {
+  flex: 1 0 0%;
+}
